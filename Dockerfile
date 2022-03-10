@@ -1,6 +1,4 @@
-# This template was adapted from the original node-express template
-# https://github.com/openfaas-incubator/node10-express-template
-FROM openfaas/of-watchdog:0.8.2 as watchdog
+FROM openfaas/of-watchdog:0.9.3 as watchdog
 
 FROM node:17-alpine as ship
 
